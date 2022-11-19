@@ -10,6 +10,7 @@ public class Main {
         Product oil = new Product("Масло подсолнечное", 109, 0.5);
         Product mayonnaise = new Product("Майонез", 159, 0.5);
         Product greenery = new Product("Зелень", 59, 0.1);
+        Product rice = new Product("Рис", 89, 0.4);
 
         ProductService service = new ProductService();
         service.add(potato);
@@ -18,6 +19,8 @@ public class Main {
         service.add(oil);
         service.add(mayonnaise);
         service.add(greenery);
+        service.add(rice);
+
         System.out.println(service);
 
 
